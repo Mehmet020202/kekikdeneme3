@@ -1,0 +1,8 @@
+{
+  "name": "Turkish Providers Repository | @KekikAkademi",
+  "description": "Türkçe içerikli eklenti havuzu - 2025 Ağustos Güncel",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/Mehmet020202/kekikdeneme2/main/plugins.json"
+  ]
+}
