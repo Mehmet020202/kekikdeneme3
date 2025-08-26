@@ -16,7 +16,7 @@ import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.RequestBody.Companion.toRequestBody
 
 class JetFilmizle : MainAPI() {
-    override var mainUrl              = "https://jetfilmizle.so"
+    override var mainUrl              = "https://jetfilmizle.ltd"
     override var name                 = "JetFilmizle"
     override val hasMainPage          = true
     override var lang                 = "tr"
@@ -25,7 +25,7 @@ class JetFilmizle : MainAPI() {
     
     // 2025 Ağustos Güncel Alternatif domain'ler
     private val alternativeDomains = listOf(
-        "https://jetfilmizle.so",
+        "https://jetfilmizle.ltd",
         "https://jetfilmizle.net",
         "https://jetfilmizle.com",
         "https://jetfilmizle.live",
