@@ -10,7 +10,7 @@ import com.lagradost.cloudstream3.LoadResponse.Companion.addActors
 import com.lagradost.cloudstream3.LoadResponse.Companion.addTrailer
 
 class FilmModu : MainAPI() {
-    override var mainUrl              = "https://www.filmmodu.nl"
+    override var mainUrl              = "https://www.filmmodu.one"
     override var name                 = "FilmModu"
     override val hasMainPage          = true
     override var lang                 = "tr"
@@ -19,7 +19,7 @@ class FilmModu : MainAPI() {
     
     // 2025 Güncel Alternatif domain'ler
     private val alternativeDomains = listOf(
-        "https://www.filmmodu.nl",
+        "https://www.filmmodu.one",
         "https://filmmodu.live",
         "https://filmmodu.rip",
         "https://filmmodu.net",
